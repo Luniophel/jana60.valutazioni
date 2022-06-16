@@ -19,7 +19,6 @@ public class Main {
 		Studente[] studentList = new Studente[nStudents];
 		
 		//Compilazione per ogni slot dell'array fino al suo valore massimo nStudents
-		//Dopo la compilazione, procedere con calcolo promozione calcIfGraduate per ogni iterazione
 		for(int i = 0; i < nStudents; i++) {
 			
 			//Variabili temporanee per calcolo dei risultati nel ciclo
@@ -42,7 +41,8 @@ public class Main {
 		//Stampa della lista completa di studenti per ID univoco, con annessi promozione/bocciatura e numero totale di promozioni
 		for(int i = 0; i < nStudents; i++) {
 			
-			System.out.println(studentList[i].calcIfGraduate());
+			System.out.format("%1s %2o %1s %1s %8s %1s %1s", "|", studentList[i].studentID, "|", " ", studentList[i].calcIfGraduate(), " ", "|");
+			System.out.println("");
 			
 		}
 
