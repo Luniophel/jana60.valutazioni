@@ -26,11 +26,11 @@ public class Main {
 			float temp2;
 			//CASI DI TESTING
 			//CaseTest01 - Assenze > 50 - Se corretto, dovrebbe restituire BOCCIATO
-//			temp1 = 51;
-//			temp2 = 3;
-			//CaseTest02 - 25 <= Assenze <= 50 - Se corretto, dovrebbe restituire PROMOSSO
-			temp1 = 30;
+			temp1 = 51;
 			temp2 = 3;
+			//CaseTest02 - 25 <= Assenze <= 50 - Se corretto, dovrebbe restituire PROMOSSO
+//			temp1 = 30;
+//			temp2 = 3;
 			//CaseTest03 - Assenze < 25 - Se corretto, dovrebbe restituire BOCCIATO
 //			temp1 = 10;
 //			temp2 = 1;
