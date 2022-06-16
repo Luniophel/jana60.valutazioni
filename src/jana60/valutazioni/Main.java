@@ -11,6 +11,7 @@ public class Main {
 		//Scanner per prendere input dall'utente
 		Scanner scan = new Scanner(System.in);				
 		
+		//ALGORITMO
 		//Raccolta del numero di studenti per creare l'array
 		System.out.print("Inserire il numero di studenti da valutare: ");
 		nStudents = Integer.parseInt(scan.nextLine());
