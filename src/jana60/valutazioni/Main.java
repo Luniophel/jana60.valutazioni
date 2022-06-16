@@ -51,6 +51,11 @@ public class Main {
 		int nGraduated = 0;
 		for(int i = 0; i < nStudents; i++) {
 			
+			//Metodo che controlla e sistema valori potenzialmente errati, prima che vengano utilizzati nel calcolo delle successive lines
+			studentList[i].setStudentAbsencePerc(studentList[i].studentAbsencePerc);
+			studentList[i].setStudentAverageGrades(studentList[i].studentAverageGrades);
+			
+			//Struttura della tabella che verrà stampata su console con annessi dati
 			System.out.format("%1s %2o %1s %1s %8s %1s %1s", "|", studentList[i].studentID, "|", " ", studentList[i].calcIfGraduate(), " ", "|");
 			System.out.println("");
 			
