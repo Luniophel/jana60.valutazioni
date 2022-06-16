@@ -20,20 +20,7 @@ public class Main {
 		
 		//Compilazione per ogni slot dell'array fino al suo valore massimo nStudents
 		for(int i = 0; i < nStudents; i++) {
-	
-			//CASI DI TESTING
-			//Disattivare le variabili temp1 e temp2 con input dall'utente, dopodiché attivarne una sola per volta
-			//CaseTest01 - Assenze > 50 - Se corretto, dovrebbe restituire BOCCIATO
-//			int temp1 = 51;
-//			int temp2 = 3;
-			//CaseTest02 - 25 <= Assenze <= 50 - Se corretto, dovrebbe restituire PROMOSSO
-//			int temp1 = 30;
-//			int temp2 = 3;
-			//CaseTest03 - Assenze < 25 - Se corretto, dovrebbe restituire BOCCIATO
-//			int temp1 = 10;
-//			int temp2 = 1;
-			//FINE CASI DI TESTING
-			
+
 			//Richieste dei dati all'utente utilizzando 2 variabili temporanee
 			System.out.print("\nInserire la percentuale d'assenze dello studente: ");
 			int temp1 = Integer.parseInt(scan.nextLine());
